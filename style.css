@@ -12,7 +12,7 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-.card {
+.container {
   display: flex;
   max-width: 800px;
   background-color: #fff;
@@ -21,14 +21,20 @@ body {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card:hover {
+.container:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 35px rgb(0, 60, 172);
 }
 
-.card img {
+.card-img img {
   width: 300px;
   object-fit: cover;
+  padding: 10px;
+  border-radius: 20px;
+}
+img {
+  border: 5px;
+  border-radius: 10px;
 }
 
 .card-content {
